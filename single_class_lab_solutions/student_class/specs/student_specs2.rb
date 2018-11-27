@@ -8,6 +8,7 @@ class StudentTest < MiniTest::Test
 
     @student = Student.new("Maya", "E18")
 
+
   end
 
   # * Create a couple of Getter methods, one that returns the name property and one that returns the cohort property of the student.
@@ -34,6 +35,12 @@ class StudentTest < MiniTest::Test
     assert_equal("I can talk", @student.student_talks)
   end
 
+  # * Create a method that takes in a students favourite programming language and
+  # returns it as part of a string (eg. `student1.say_favourite_language("Ruby")` -> "I love Ruby").
+  def test_favorite_programming_language()
+    assert_equal(@student.test_favorite_programming_language, "I love Ruby")
+
+  end
 
 
 end

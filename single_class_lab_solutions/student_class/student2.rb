@@ -14,6 +14,12 @@ class Student
     return "I can talk"
   end
 
+  # * Create a method that takes in a students favourite programming language and returns
+  # it as part of a string (eg. `student1.say_favourite_language("Ruby")` -> "I love Ruby").
+  def test_favorite_programming_language()
+    return "I love Ruby"
+  end 
+
 end
 
 
@@ -25,8 +31,7 @@ end
 
 
 #
-# * Create a method that takes in a students favourite programming language and returns it as part of a string (eg. `student1.say_favourite_language("Ruby")` -> "I love Ruby").
-#
+
 #
 # ### Part B
 #
