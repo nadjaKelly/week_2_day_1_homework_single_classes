@@ -10,9 +10,9 @@ class Student
  end
 
 # * Create a method that gets the student to talk (eg. Returns "I can talk!).
-  # def student_talks
-  #   return "I can talk"
-  # end
+  def student_talks
+    return "I can talk"
+  end
 
 end
 
