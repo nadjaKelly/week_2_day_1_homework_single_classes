@@ -19,12 +19,12 @@ class StudentTest < MiniTest::Test
     assert_equal("E18", @student.cohort())
   end
 
-# # * Add in Setter methods to update the students name and what cohort they are in.
-#   def test_student_name_update()
-#     @student.name = "Harry"
-#     assert_equal("Harry", @student.name())
-#   end
-#
+# * Add in Setter methods to update the students name and what cohort they are in.
+  def test_student_name_update()
+    @student.name = "Harry"
+    assert_equal("Harry", @student.name())
+  end
+
 #   def test_student_cohort()
 #     @student.cohort = "E10"
 #     assert_equal("E10", @student.cohort())
