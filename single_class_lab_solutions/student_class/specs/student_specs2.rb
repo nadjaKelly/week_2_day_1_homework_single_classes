@@ -25,10 +25,10 @@ class StudentTest < MiniTest::Test
     assert_equal("Harry", @student.name())
   end
 
-#   def test_student_cohort()
-#     @student.cohort = "E10"
-#     assert_equal("E10", @student.cohort())
-#   end
+  def test_student_cohort()
+    @student.cohort = "E10"
+    assert_equal("E10", @student.cohort())
+  end
 # # * Create a method that gets the student to talk (eg. Returns "I can talk!).
 #   def test_student_talks()
 #     assert_equal("I can talk", @student.student_talks)
