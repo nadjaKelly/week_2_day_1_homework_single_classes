@@ -9,9 +9,9 @@ class TeamTest < MiniTest::Test
     @team = Team.new("Best Runners", "NewNamePlayer A", "Corgie Coach")
   end
 
-  # def test_team_name()
-  #   assert_equal("Best Runners", @team.team_name())
-  # end
+  def test_team_name()
+    assert_equal("Best Runners", @team.team_name())
+  end
 
 
 
