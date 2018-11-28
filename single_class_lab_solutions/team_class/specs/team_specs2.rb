@@ -13,8 +13,12 @@ class TeamTest < MiniTest::Test
     assert_equal("Best Runners", @team.team_name())
   end
 
+# * Create a method that adds a new player to the players array.
+  def test_add_player()
+    assert_equal("Best Runners", @team.team_name)
+  end
 
-
+# * Add a method that takes in a string of a player's name and checks to see if they are in the players array.
 
 
 
@@ -28,8 +32,8 @@ end
 
 
 
-# * Create a method that adds a new player to the players array.
-# * Add a method that takes in a string of a player's name and checks to see if they are in the players array.
+
+
 # * Add a points property into your class that starts at 0.
 # * Create a method that takes in whether the team has won or lost and updates the points property for a win.
 #

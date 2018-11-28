@@ -13,8 +13,11 @@ class Team
     @players = players
     @coach = coach
   end
-
-
+  
+# * Create a method that adds a new player to the players array.
+  def add_player()
+    @players.push(players)
+  end
 
 
 
